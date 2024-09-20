@@ -1,0 +1,44 @@
+/* Home.css */
+
+.home {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+  
+  .carousel img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .sponsors {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .sponsor {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 0.5rem;
+  }
+  
+  .sponsor h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
