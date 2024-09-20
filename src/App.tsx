@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from '../src/charity_website/home';
-import AboutUs from '../src/charity_website/aboutus';
-import Events from '../src/charity_website/events';
-import Donate from '../src/charity_website/donate';
-import Contact from '../src/charity_website/contact';
+import Home from './charity_website/home';
+import AboutUs from './charity_website/aboutus';
+import Events from './charity_website/events';
+import Donate from './charity_website/donate';
+import Contact from './charity_website/contact';
 import './App.css';
 
 const Page: React.FC = () => {
