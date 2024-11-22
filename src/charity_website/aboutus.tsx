@@ -6,7 +6,7 @@ const AboutUs: React.FC = () => {
     <div className="about-us">
       <h1>About Us</h1>
       <p>
-        We are a passionate team committed to making the world a better place by helping communities in need. Through our dedicated efforts, we provide support, resources, and hope to those who need it the most.
+        We are a local Pet Shop offering great food for your lil friends.
       </p>
       <section className="team">
         <div className="team-member">

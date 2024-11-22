@@ -30,8 +30,8 @@ const Contact: React.FC = () => {
       )}
       <div className="contact-info">
         <p>Phone: 588-888-8888</p>
-        <p>Email: info@charity.org</p>
-        <p>Address: 123 Charity Lane, Giving City, GC 45678</p>
+        <p>Email: info@petshop.org</p>
+        <p>Address: 123 PetShop, pet City, GC 45678</p>
       </div>
     </div>
   );
