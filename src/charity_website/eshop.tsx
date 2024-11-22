@@ -1,4 +1,4 @@
-import './EShop.css';
+import './eshop.css';
 import image1 from '../assets/images/Screenshot 2024-11-22 at 10.31.01 PM.png';
 import image2 from '../assets/images/Screenshot 2024-11-22 at 10.31.13 PM.png';
 import image3 from '../assets/images/Screenshot 2024-11-22 at 10.49.41 PM.png';
