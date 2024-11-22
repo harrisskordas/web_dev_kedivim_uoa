@@ -1,8 +1,8 @@
 import './EShop.css';
-import image1 from '../assets/images/Screenshot 2024-11-22 at 10.31.01 PM.png';
-import image2 from '../assets/images/Screenshot 2024-11-22 at 10.31.13 PM.png';
-import image3 from '../assets/images/Screenshot 2024-11-22 at 10.49.41 PM.png';
-import image4 from '../assets/images/Screenshot 2024-11-22 at 10.50.05 PM.png';
+import image1 from '../assets/Screenshot 2024-11-22 at 10.49.41 PM.png'
+import image2 from '../assets/Screenshot 2024-11-22 at 10.49.54 PM.png';
+import image3 from '../assets/Screenshot 2024-11-22 at 10.50.05 PM.png';
+import image4 from '../assets/Screenshot 2024-11-22 at 10.50.13 PM.png';
 
 const EShop = () => {
   // Array of products with their images and random prices
