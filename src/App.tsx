@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './charity_website/home';
 import AboutUs from './charity_website/aboutus';
 import Events from './charity_website/events';
-import Donate from './charity_website/donate';
+import EShop from './charity_website/eshop';
 import Contact from './charity_website/contact';
 import './App.css';
 
@@ -16,7 +16,7 @@ const Page: React.FC = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/aboutus">About Us</Link></li>
             <li><Link to="/events">Events</Link></li>
-            <li><Link to="/donate">Donate</Link></li>
+            <li><Link to="/eshop">EShop</Link></li>
             <li><Link to="/contact">Contact Us</Link></li>
           </ul>
         </nav>
@@ -27,7 +27,7 @@ const Page: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/donate" element={<Donate />} />
+            <Route path="/donate" element={<EShop />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

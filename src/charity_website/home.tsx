@@ -1,12 +1,13 @@
 import React from 'react';
 import './home.css';
+import image1 from '../assets/image-2.png';
 
 const Home: React.FC = () => {
   return (
     <div className="home">
       <h1>Welcome to Our Pet Shop</h1>
       <div className="carousel">
-        <img src="assets/download.jpg" alt="Charity event" />
+        <img src={image1} alt="Charity event" />
       </div>
       <div className="sponsors">
         <div className="sponsor">
@@ -15,7 +16,7 @@ const Home: React.FC = () => {
         </div>
         <div className="sponsor">
           <h3>Royal</h3>
-          <p>Royal Distributor</p>
+          <p>Royal Food Distributor</p>
         </div>
         <div className="sponsor">
           <h3>TP</h3>
