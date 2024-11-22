@@ -27,14 +27,14 @@ const Page: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/donate" element={<EShop />} />
+            <Route path="/eshop" element={<EShop />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
 
         {/* Footer */}
         <footer>
-          <p>&copy; {new Date().getFullYear()} Charity Organization. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Pet Shop. All rights reserved.</p>
         </footer>
       </div>
     </Router>
